@@ -1,0 +1,33 @@
+body{
+    background: black;
+}
+.calculate{
+    width: 400px;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+}
+.calculate>input{
+    border: none;
+    border-radius: 12px;
+    font-size: 2rem;
+    padding: 4px;
+}
+.panel{
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.btn{
+    width: 5rem;
+    height: 3rem;
+    font-size: 2rem;
+    background: orange;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #ffd13f;
+}
